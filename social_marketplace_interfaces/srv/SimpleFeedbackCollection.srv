@@ -1,0 +1,7 @@
+int64 agent_id
+string agent_name
+string[] parameter_names  # List of parameter names for which feedback needs to be collected
+float64[] parameter_values
+
+---
+int64 feedback_values[]

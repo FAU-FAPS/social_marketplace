@@ -1,0 +1,4 @@
+# This file defines the initial parameters for agent_3.
+# These parameters represent the starting values before any feedback adjustments.
+age,profession_level,emotional_state
+2.5,2.5,2.5

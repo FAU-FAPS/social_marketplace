@@ -1,0 +1,9 @@
+# Goal
+int64 agent_id  # ID of the selected Agent
+string agent_name
+---
+# Result
+string interaction_result
+---
+# Feedback
+string interaction_feedback  # Current Agent's words

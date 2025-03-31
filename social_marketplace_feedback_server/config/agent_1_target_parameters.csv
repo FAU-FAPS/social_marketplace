@@ -1,0 +1,11 @@
+# This file contains the target parameters for agent_1.
+# The parameters are used for feedback collection and adjustment.
+
+# Column headers: specify the attributes of the agent
+age,profession_level,emotional_state
+
+# Target values for the agent
+1.0,1.0,1.0
+
+
+# Ensure all rows follow the same column format.

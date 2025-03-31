@@ -1,0 +1,20 @@
+# Scene Parameters Configuration File
+# ------------------------------------
+# This file defines predefined scene parameters used in the social marketplace environment.
+# Each row represents a different scene, and the parameters are used to determine the best-matching agent.
+
+# Column Descriptions:
+# - age: Represents the target age group for the scene. 
+#        Scale: 1.0 (Youngest) to 5.0 (Oldest).
+# - profession_level: Represents familiarity with the system. 
+#        Scale: 1.0 (Unfamiliar) to 5.0 (Well Familiar).
+# - emotional_state: Represents the emotional state for the scene.
+#        Scale: 1.0 (Sad) to 5.0 (Happy).
+
+# Note: The closest agent to a given scene is determined based on the Manhattan distance between 
+# the scene parameters and each agent’s parameters.
+
+age,profession_level,emotional_state
+1.5,2.0,2.0   # Closest to Agent 1 (Younger, somewhat unfamiliar, neutral mood)
+3.0,3.5,2.5   # Closest to Agent 2 (Middle-aged, more familiar, slightly happy)
+3.5,4.0,4.5   # Closest to Agent 3 (Older, highly familiar, very happy)

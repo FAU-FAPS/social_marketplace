@@ -1,0 +1,11 @@
+# Goal
+int64 agent_id
+string agent_name
+string[] parameter_names  # List of parameter names for which feedback needs to be collected
+float64[] parameter_values  # List of current parameter values
+---
+# Result
+float64[] feedback_values  # List of feedback values (in string form)
+---
+# Feedback
+float32 progress  # 

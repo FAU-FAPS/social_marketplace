@@ -1,0 +1,23 @@
+# This file contains the target parameters for agent_2.
+# The parameters are used for feedback collection and adjustment.
+
+# Column headers: specify the attributes of the agent
+age,profession_level,emotional_state
+
+# Target values for the agent
+# For 100 feedback cycles, allow a 10% error rate (10 cycles with potential deviations).
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+3.0,3.0,3.0
+
+# False target value to simulate error
+1.0,1.0,1.0
+
+
+# Ensure all rows follow the same column format.

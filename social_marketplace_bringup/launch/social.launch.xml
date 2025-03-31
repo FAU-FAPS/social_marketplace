@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Mock Scene Publisher -->
+  <node pkg="social_marketplace_scene_analysis" exec="mock_scene_publisher" name="mock_scene_publisher" output="screen">
+    <!--param name="scene_parameters" type="double_array" value="[3.0, 3.5, 2.0]"/-->
+    <!--param name="scene_parameters" value="3.0, 3.5, 2.0" value-sep=", "/-->
+    <!--param name="publish_interval_ms" type="int" value="15000"/-->
+  </node>
+
+  <node pkg="social_marketplace_bidding_platform" exec="bidding_platform" name="bidding_platform" output="screen"/>
+
+  <!--node pkg="social_marketplace_scene_analysis" exec="scene_analysis_server" name="scene_analysis_server" output="screen"/>
+
+  <node pkg="social_marketplace_scene_analysis" exec="scene_analysis_client" name="scene_analysis_client" output="screen"/>
+
+  <node pkg="social_marketplace_agent_interaction" exec="agent_interaction_server" name="agent_interaction_server" output="screen"/>
+
+  <node pkg="social_marketplace_agent_selection" exec="rule_based_matching_server" name="rule_based_matching_server" output="screen"/>
+
+  <node pkg="social_marketplace_agent_selection" exec="rule_based_matching_client" name="rule_based_matching_client" output="screen"/>
+
+  <node pkg="social_marketplace_feedback_collection" exec="feedback_collection_client" name="feedback_collection_client" output="screen"/>
+
+  <node pkg="social_marketplace_feedback_collection" exec="feedback_collection_server" name="feedback_collection_server" output="screen"/>
+
+  <node pkg="social_marketplace_parameter_adjustment" exec="parameter_adjustment_server" name="parameter_adjustment_server" output="screen"/-->
+
+  <node pkg="social_marketplace_agent_examples" exec="agent_action_server" name="agent_1" output="screen"/>
+
+  <node pkg="social_marketplace_agent_examples" exec="agent_action_server" name="agent_2" output="screen"/>
+
+  <node pkg="social_marketplace_agent_examples" exec="agent_action_server" name="agent_3" output="screen"/>
+
+  <node pkg="social_marketplace_feedback_server" exec="feedback_server_action_server" name="feedback_server" output="screen"/>
+
+
+</launch>

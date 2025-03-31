@@ -25,9 +25,7 @@ This package integrates **bidding, agent interaction, scene analysis, and feedba
 To install and build the package, run:
 ```bash
 cd ~/ros2_ws/src
-git clone https://git.faps.uni-erlangen.de/forsocialrobots/forsocialrobots_architecture/social_marketplace.git -b main
-cd ~/ros2_ws/src/social_marketplace
-git submodule update --init --recursive
+git clone https://github.com/FAU-FAPS/social_marketplace -b main
 cd ~/ros2_ws
 colcon build --symlink-install
 source install/setup.bash
